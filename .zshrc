@@ -96,7 +96,11 @@ source $ZSH/oh-my-zsh.sh
 # For a full list of active aliases, run `alias`.
 #
 # Example aliases
-# alias zshconfig="mate ~/.zshrc"
+alias zshconfig="vim ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-
+alias wttr="curl zh-cn.wttr.in/\?m"
+alias c="clear"
+alias cdc="cd && clear"
+alias ra="ranger"
+alias sudo="sudo -E"
 
